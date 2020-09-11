@@ -1,13 +1,79 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: hsl(180, 52%, 96%);
+	font-size: 15px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.header {
+	background-image: url('http://localhost:3000/images/bg-header-desktop.svg');
+	width: 100%;
+	height: 100px;
+	background-color: hsl(180, 29%, 50%);
+	background-repeat: no-repeat;
+}
+.list-point {
+	text-decoration: dotted;
+}
+.title {
+	font-weight: 700;
+	margin: 5px 0px;
+}
+button{
+	border:none;
+}
+.description {
+	margin: auto;
+	text-align: right;
+}
+.search-bar {
+	width: 80%;
+	margin: 10px 10%;
+}
+.card {
+	margin: 20px 0;
+}
+.properties {
+	font-size: 12px;
+}
+.company {
+	color: #2aa37b;
+}
+.new {
+	background-color: #2aa37b;
+	color: white;
+	border-radius: 10px;
+	padding: 3px 5px;
+	margin: 5px 15px;
+}
+.light-box {
+	margin: 5px;
+	border-radius: 5px;
+	padding: 2px;
+	background-color: hsl(180, 52%, 96%);
+	color: #2aa37b;
+	font-weight: 600;
+}
+.compnay-name {
+	color: #2aa37b;
+}
+.dark-gray {
+	color: hsl(180, 14%, 20%);
+}
+.light-gray {
+	color: hsl(180, 8%, 52%);
+}
+.featured {
+	background-color: hsl(180, 31%, 95%);
+	padding: 2px 5px;
+	background-color: black;
+	color: white;
+	border-radius: 11px;
+	margin: 5px;
 }
